@@ -162,7 +162,6 @@ int main(int argc, char const *argv[])
 		}
 		sort(v.begin(), v.end(), compare);
 		for(size_t  in = 0; in < v.size(); in++){
-			//printf("%ld\n", in);
 			printf("%s %d 0x%08x 0x%08x %s\n", v[in].name_it.c_str(), v[in].id, v[in].start, v[in].end, v[in].source);
 		}
 	} else {
